@@ -67,4 +67,4 @@ api.add_resource(Data, '/data')
 api.add_resource(SendData, '/send')  # Новый эндпоинт для обновления файла
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
